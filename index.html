@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculateur d'intérêts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <h1>Calculateur d'intérêts bancaires</h1> 
+
+   <!--Zone de saisie pour le montant-->
+   <label>Montant (€) :</label>
+   <input type="number" id="montant"><br>
+
+   <!-- Zone de saisie pour le taux -->
+    <label>Taux d'intérêt (%) :</label>
+    <input type="number" id="taux"><br>
+
+    <!--Zone de saisie pour la durée-->
+   <label>Durée  (années) :</label>
+   <input type="number" id="durée"><br>
+
+   <!-- Bouton pour lancer le calcul-->
+  <button onclick="calculerInterets()">Calculer</button>
+
+  <!-- Zone òu s'affichera le résultat -->
+   <p id="resultat"></p>
+
+   <script src="script.js"></script>
+  
+  </body>
+</html>

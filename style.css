@@ -28,3 +28,13 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
+
+button:hover {
+ background-color: #45a049;
+}
+
+#resultat {
+ margin-top: 20px;
+  font-weight: bold;
+}
+
